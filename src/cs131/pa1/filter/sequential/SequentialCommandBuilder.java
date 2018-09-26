@@ -44,6 +44,7 @@ public class SequentialCommandBuilder {
 			else if(filters[i].equals("pwd")) {
 				filter = new Pwd();
 				System.out.print(Message.NEWCOMMAND + "" + filter.processLine("")+ "\n");
+				apple
 			}
 			else if(filters[i].equals("ls")) {
 				filter = new LS();
